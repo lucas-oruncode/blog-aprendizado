@@ -1,4 +1,43 @@
 body {
-    background-color: black;
-    color: white;
+    background-color: #101010;
+    color: rgb(218, 217, 217);
+}
+
+nav {
+    background-image: linear-gradient(to right, #161616, #191919);
+    padding: 10px;
+}
+
+article {
+    background-color: #161616;
+    border-right: solid 2px #020202;
+    border-bottom: solid 2px #020202;
+    border-radius: 15px 0px;
+    margin: 20px 20%;
+    padding: 10px 20px;
+}
+
+hr {
+    border-bottom: #020202;
+}
+
+h5 {
+    color: #4fb4b4;
+    font-size: 16px;
+    font-weight: 90;
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    color: #dddddd;
+}
+
+address {
+    padding: 0px 30px;
+}
+
+footer {
+    padding-left: 40%;
+    color: #474747;
 }
