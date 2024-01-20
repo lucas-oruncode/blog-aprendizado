@@ -6,223 +6,262 @@
     <title>Blog de Aprendizado</title>
 </head>
 <body>
-    <div>
+    <header>
         <h1> <em>Blog de Evolução do Aprendizado </em></h1>
         <p><em>Blog pessoal, onde procuro documentar minha evolução com as linguagens e tecnologias aprendidas.</em></p> 
-    </div>
     
     <hr>
+    <nav>
         <h4>
             <strong><a href="/"> Página inicial  |</a></strong>
             <strong><a href="#day1">Dia 1  |</a></strong>
             <strong><a href="#day2">Dia 2  |</a></strong>
             <strong><a href="#day3">Dia 3  |</a></strong>
-            <strong><a href="#day4">Dia 4  </a></strong>
-            <strong><a href="#day5">Dia 5  </a></strong>
+            <strong><a href="#day4">Dia 4  |</a></strong>
+            <strong><a href="#day5">Dia 5  |</a></strong>
+            <strong><a href="#day6">Dia 6  |</a></strong>
+            <strong><a href="#contato">Contato</a></strong>
         </h4>
+    </nav>
+    </header>
     <hr>
     <br>
     
-    <h2> Aprendendo o HTML</h2>
-    <!-- Estudos do dia 12 de janeiro 2024 -->
-    <div id="day1">
-        <h3>Aprendendo o básico sobre a estrutura <em>HTML</em>:</h3>
-        <ul>
-            <li>Tags</li>
-            <li>Funcionalidade da tag de cabeçalho e metadados: <strong>head</strong> </li>
-            <li>Funcionalidae do corpo da págica: <strong>body</strong></li>
-            <li>Funcionalidade das tags de titulo: <strong>h1, h2 , h3 ...</strong></li>
-            <li>Funcionalidade das tags de parágrafo: <strong>p</strong></li>
-        </ul>   
-    </div>
-    
+    <main>
+    <section>
+        <article>
+            <h2> Aprendendo o HTML</h2>
+            <p><em>"Aqui utilizarei os conhecimentos obtidos e documentados na lista, aplicando os mesmos diretamente na página.</em></p>
+        </article>
+    </section>
+        <br>
 
-    <br><!-- Estudos do dia 13 de janeiro de 2024 -->
-    <div id="day2">
-        <h3> Elementos de formatação e comentários</h3>
-        <ul>
-            <li>Utilizando a tag [i]: <i>Itálico</i></li>
-            <li>Utilizando a tag [b]: <b>Negrito</b></li>
-            <li>Tag [strong] é tambem marca o texto: <strong>strong</strong></strong></li>
-            <li>Assim como [em] deixa o texto: <em>Itálico</em></li>
-            <li>Utilização combinada <strong><em>Negrito e Itálico</em></strong></li>
-            <li>Fazendo comentarios utilizando <b>[!-- . . . --]</b> para visualização apenas do desenvolvedor, não sendo mostrado diretamente na página.</li>
-        </ul>
-    </div>
-    
-
-    <br><!-- Estudos do dia 15 de janeiro de 2024 -->
-    <div id="day3">
-        <h3> Elementos de imagens e atributos</h3>
-        <ul>
-            <li>Utilização da tag <strong> img</strong></li>
-            <li>Atrbutos dentro da tag <em>img</em>: <strong>src</strong> - caminho da imagem</li>
-            <li>Sendo possivel colocar imagens direto da internet, colocando o link da imagem no <strong>src</strong></li>
-            <li>Atributo <strong>heigh</strong>: altura da imagem</li>
-            <li>Atributo <strong>width</strong>: largura da imagem</li>
-        </ul>
-            <img src="./img/elementosImagem.png" alt="screenshot do codigo" height="200" width="800">
-    </div>
-    
-    <br>
-    <div>
-        <h3> Organização de código</h3>
-        <ul>
-            <li>Utilizando a tag <strong>div</strong>:</li>
+    <section>
+        <br><!-- Estudos do dia 12 de janeiro 2024 -->
+        <article id="day1">
+            <h3>Aprendendo o básico sobre a estrutura <em>HTML</em>:</h3>
             <ul>
-                <li>Agrupando um grupo de itens, onde no <em>div</em> há quebra de linha e o espaço horizotal é preenchido.</li>
-            </ul>
-            <li>Utilizando a tag <strong>span</strong>:</li>
+                <li>Tags</li>
+                <li>Funcionalidade da tag de cabeçalho e metadados: <strong>head</strong> </li>
+                <li>Funcionalidae do corpo da págica: <strong>body</strong></li>
+                <li>Funcionalidade das tags de titulo: <strong>h1, h2 , h3 ...</strong></li>
+                <li>Funcionalidade das tags de parágrafo: <strong>p</strong></li>
+            </ul>   
+        </article>
+        
+
+        <br><!-- Estudos do dia 13 de janeiro de 2024 -->
+        <article id="day2">
+            <h3> Elementos de formatação e comentários</h3>
             <ul>
-                <li>Já com <em>span</em>, não há quebra de linha e ocupa apenas o conteúdo do seu interior.</li>
+                <li>Utilizando a tag [i]: <i>Itálico</i></li>
+                <li>Utilizando a tag [b]: <b>Negrito</b></li>
+                <li>Tag [strong] é tambem marca o texto: <strong>strong</strong></strong></li>
+                <li>Assim como [em] deixa o texto: <em>Itálico</em></li>
+                <li>Utilização combinada <strong><em>Negrito e Itálico</em></strong></li>
+                <li>Fazendo comentarios utilizando <b>[!-- . . . --]</b> para visualização apenas do desenvolvedor, não sendo mostrado diretamente na página.</li>
             </ul>
-        </ul>   
-    </div>
-    
-    <br><!-- Estudos do dia 16 de janeiro de 2024 -->
-    <div id="day4">
-        <h3> Trabalhando com Links</h3>
-        <ul>
-            <li>Utilização da tag âncora: <strong>a</strong></li>
-            <li>Transitar entre as páginas com o atributo: <strong>href</strong></li>
-            <li>Diferença entre URLs <strong><em>absolutas e relativas</em></strong></li>
-            <li>Navegando dentro de uma mesma página com o atributo: <em># + </em><strong>id</strong></li>
-            <li>Links para páginas externas: <a href="https://google.com" target="_blank">Google</a></li>
-        </ul>
-    
+        </article>
+        
+
+        <br><!-- Estudos do dia 15 de janeiro de 2024 -->
+        <article id="day3">
+            <h3> Elementos de imagens e atributos</h3>
+            <ul>
+                <li>Utilização da tag <strong> img</strong></li>
+                <li>Atrbutos dentro da tag <em>img</em>: <strong>src</strong> - caminho da imagem</li>
+                <li>Sendo possivel colocar imagens direto da internet, colocando o link da imagem no <strong>src</strong></li>
+                <li>Atributo <strong>heigh</strong>: altura da imagem</li>
+                <li>Atributo <strong>width</strong>: largura da imagem</li>
+            </ul>
+                <img src="./img/elementosImagem.png" alt="screenshot do codigo" height="200" width="800">
+        </article>
+        
+        <br>
+        <article>
+            <h3> Organização de código</h3>
+            <ul>
+                <li>Utilizando a tag <strong>div</strong>:</li>
+                <ul>
+                    <li>Agrupando um grupo de itens, onde no <em>div</em> há quebra de linha e o espaço horizotal é preenchido.</li>
+                </ul>
+                <li>Utilizando a tag <strong>span</strong>:</li>
+                <ul>
+                    <li>Já com <em>span</em>, não há quebra de linha e ocupa apenas o conteúdo do seu interior.</li>
+                </ul>
+            </ul>   
+        </article>
+        
+        <br><!-- Estudos do dia 16 de janeiro de 2024 -->
+        <article id="day4">
+            <h3> Trabalhando com Links</h3>
+            <ul>
+                <li>Utilização da tag âncora: <strong>a</strong></li>
+                <li>Transitar entre as páginas com o atributo: <strong>href</strong></li>
+                <li>Diferença entre URLs <strong><em>absolutas e relativas</em></strong></li>
+                <li>Navegando dentro de uma mesma página com o atributo: <em># + </em><strong>id</strong></li>
+                <li>Links para páginas externas: <a href="https://google.com" target="_blank">Google</a></li>
+            </ul>
+        
+        <br>
+            <h3>Listas no HTML</h3>
+            <ul>
+                <li>Listas ordenadas, tag: <strong>ol</strong></li>
+                <li>Listas não-ordenadas, tag: <strong>ul</strong></li>
+                <li>Itens das listas, tag: <strong>il</strong></li>
+            </ul> 
+            
+            <h3>Tabelas</h3>
+            <ul>
+                <li>Tag de linha: <strong>tr</strong></li>
+                <li>Tag para coluna/célula: <strong>td</strong></li>
+                <li>Tag ed cabeçalho: <strong>th</strong></li>
+                <li>Tags para organização de cabeçalho e conteudo: <strong>thead - tbody</strong></li>
+                <li>Atributo para personalizar a célula: <strong>colspan</strong></li>
+            </ul>
+            
+            <p><strong><em>Exemplo:</em></strong></p>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th colspan="2">Automovel</th>
+                        <th>Placa</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ford</td>
+                        <td>Bronco</td>
+                        <td>14DK456</td>
+                    </tr>
+                    <tr>
+                        <td>Fiat</td>
+                        <td>Fastback</td>
+                        <td>87RT652</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+        
+        <br><!-- Estudos do dia 18 de janeiro de 2024 -->
+        <article id="day5">
+            <h3>Formularios</h3>
+            <ul>
+                <li>
+                    Campo de texto utilizando a tag: <strong>label</strong>
+                    <ul><li><label for="example">>>Esta é a <strong>label</strong><<</label><input type="text" id="example"><button>Botão</button></li></ul>
+                </li>
+                <br>
+                <li>
+                    Campo de inserção de dados com a tag: <strong>input</strong>
+                    <p><strong>Alguns tipos de <em>input</em>:</strong></p>
+                    <ul>
+                        <li>
+                            <label for="example01"><strong>"text"</strong></label>
+                            <input type="text" id="example01" name="example01" required>
+                        </li>
+                        <br>
+                        <li>
+                            <label for="example02"><strong>"email"</strong></label>
+                            <input type="email" id="example02" name="example02" required>
+                        </li>
+                        <br>
+                        <li>
+                            <label for="example03"><strong>"password"</strong></label>
+                            <input type="password" id="example03" name="example03" required>
+                        </li>
+                        <br>
+                        <li>
+                            <label for="example04"><strong>"idade"</strong></label>
+                            <input type="number" id="example04" name="example04" min="18" max="100">
+                        </li>
+                        <br>
+                        <li>
+                            <label><strong>"radio"</strong></label>
+                            <input type="radio" id="opcao1" name="opcao" value="opcao1">
+                            <label for="opcao1">Opção 1</label>
+                            <input type="radio" id="opcao2" name="opcao" value="opcao2">
+                            <label for="opcao2">Opção 2</label>
+                        </li>
+                        <br>
+                        <li>
+                            <label><strong>"checkbox"</strong></label>
+                            <input type="checkbox" id="check1" name="check" value="backend">
+                            <label for="check1">Backend</label>
+                            <input type="checkbox" id="check2" name="check" value="frontend">
+                            <label for="check2">Frontend</label>
+                        </li>
+                        <br>
+                        <li>
+                            <label for="dataNascimento"><strong>"date"</strong></label>
+                            <input type="date" id="dataNascimento" name="dataNascimento">
+                        </li>
+                        <br>
+                        <li>
+                            <label for="arquivos"><strong>"file"</strong></label>
+                            <input type="file" id="arquivos" name="arquivos">
+                        </li>
+                        <br>
+                        <li>
+                            <label for="situacao"><strong>"select"</strong>:</label>
+                            <select name="situacao" id="situacao">
+                                <option value="" selected disabled>Selecione uma das opções...</option>
+                                <option value="estudante">Estudando para me tornar um programador</option>
+                                <option value="estagiario">Atuando como estagiário/trainee</option>
+                                <option value="junior">Atuando como desenvolvedor júnior</option>
+                                <option value="pleno">Atuando como desenvolvedor pleno</option>
+                                <option value="senior">Atuando como desenvolvedor sênior</option>
+                            </select>
+                        </li>
+                        <br>
+                        <li>
+                            <label for="sobre"><strong>"textarea"</strong></label>
+                            <textarea name="sobre" id="sobre" cols="40" rows="6" placeholder="Fale um pouco sobre você..."></textarea>
+                        </li>
+                    </ul>
+                </li>
+                <br>
+                <li>
+
+                    Botões com a utilização da tag: <strong>button</strong>
+                    <ul>
+                        <li><button>Botão</button></li>
+                    </ul>
+                </li>
+            </ul>
+        </article>
+
+        <br><!-- Estudos do dia 20 de janeiro de 2024 -->
+        <article id="day6">
+            <h3>Elementos semânticos</h3>
+            <ul>
+                <li>Definição de cabeçalho da página, tag: <strong>header</strong></li>
+                <li>Define uma seção de navegação, tag: <strong>nav</strong></li>
+                <li>Definição do conteúdo principal da página, tag: <strong>main</strong></li>
+                <li>Define uma seção temática na página, tag: <strong>section</strong></li>
+                <li>Define um conteúdo independente e completo, tag: <strong>article</strong></li>
+                <li>Define uma "sidebar" ou uma informação complementar, tag: <strong>aside</strong></li>
+                <li>Definição do rodapé da pagina, tag: <strong>footer</strong></li>
+                <li>Define informações de contato, tag: <strong>address</strong></li>
+            </ul>
+        </article>
+    </section>
+
     <br>
-        <h3>Listas no HTML</h3>
-        <ul>
-            <li>Listas ordenadas, tag: <strong>ol</strong></li>
-            <li>Listas não-ordenadas, tag: <strong>ul</strong></li>
-            <li>Itens das listas, tag: <strong>il</strong></li>
-        </ul> 
-        
-        <h3>Tabelas</h3>
-        <ul>
-            <li>Tag de linha: <strong>tr</strong></li>
-            <li>Tag para coluna: <strong>td</strong></li>
-            <li>Tag ed cabeçalho: <strong>th</strong></li>
-            <li>Tags para organização de cabeçalho e conteudo: <strong>thead - tbody</strong></li>
-            <li>Atributo para personalizar a célula: <strong>colspan</strong></li>
-        </ul>
-        
-        <p><strong><em>Exemplo:</em></strong></p>
-        <table border="1">
-            <thead>
-                <tr>
-                    <th colspan="2">Automovel</th>
-                    <th>Placa</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Ford</td>
-                    <td>Bronco</td>
-                    <td>14DK456</td>
-                </tr>
-                <tr>
-                    <td>Fiat</td>
-                    <td>Fastback</td>
-                    <td>87RT652</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    
-    <br><!-- Estudos do dia 18 de janeiro de 2024 -->
-    <div id="day5">
-        <h3>Formularios</h3>
-        <ul>
-            <li>
-                Campo de texto utilizando a tag: <strong>label</strong>
-                <ul><li><label for="example">>>Esta é a <strong>label</strong><<</label><input type="text" id="example"><button>Botão</button></li></ul>
-            </li>
-            <br>
-            <li>
-                Campo de inserção de dados com a tag: <strong>input</strong>
-                <p><strong>Alguns tipos de <em>input</em>:</strong></p>
-                <ul>
-                    <li>
-                        <label for="example01"><strong>"text"</strong></label>
-                        <input type="text" id="example01" name="example01" required>
-                    </li>
-                    <br>
-                    <li>
-                        <label for="example02"><strong>"email"</strong></label>
-                        <input type="email" id="example02" name="example02" required>
-                    </li>
-                    <br>
-                    <li>
-                        <label for="example03"><strong>"password"</strong></label>
-                        <input type="password" id="example03" name="example03" required>
-                    </li>
-                    <br>
-                    <li>
-                        <label for="example04"><strong>"idade"</strong></label>
-                        <input type="number" id="example04" name="example04" min="18" max="100">
-                    </li>
-                    <br>
-                    <li>
-                        <label><strong>"radio"</strong></label>
-                        <input type="radio" id="opcao1" name="opcao" value="opcao1">
-                        <label for="opcao1">Opção 1</label>
-                        <input type="radio" id="opcao2" name="opcao" value="opcao2">
-                        <label for="opcao2">Opção 2</label>
-                    </li>
-                    <br>
-                    <li>
-                        <label><strong>"checkbox"</strong></label>
-                        <input type="checkbox" id="check1" name="check" value="backend">
-                        <label for="check1">Backend</label>
-                        <input type="checkbox" id="check2" name="check" value="frontend">
-                        <label for="check2">Frontend</label>
-                    </li>
-                    <br>
-                    <li>
-                        <label for="dataNascimento"><strong>"date"</strong></label>
-                        <input type="date" id="dataNascimento" name="dataNascimento">
-                    </li>
-                    <br>
-                    <li>
-                        <label for="arquivos"><strong>"file"</strong></label>
-                        <input type="file" id="arquivos" name="arquivos">
-                    </li>
-                    <br>
-                    <li>
-                        <label for="situacao"><strong>"select"</strong>:</label>
-                        <select name="situacao" id="situacao">
-                            <option value="" selected disabled>Selecione uma das opções...</option>
-                            <option value="estudante">Estudando para me tornar um programador</option>
-                            <option value="estagiario">Atuando como estagiário/trainee</option>
-                            <option value="junior">Atuando como desenvolvedor júnior</option>
-                            <option value="pleno">Atuando como desenvolvedor pleno</option>
-                            <option value="senior">Atuando como desenvolvedor sênior</option>
-                        </select>
-                    </li>
-                    <br>
-                    <li>
-                        <label for="sobre"><strong>"textarea"</strong></label>
-                        <textarea name="sobre" id="sobre" cols="40" rows="6" placeholder="Fale um pouco sobre você..."></textarea>
-                    </li>
-                </ul>
-            </li>
-            <br>
-            <li>
+    <hr>
+    <section id="contato">
+        <address>
+            <p><strong>Entre em contato:</strong></p>
+            <p>Telefone: 1234-5678</p>
+            <p>Email: contato@exemplo.com</p>
+            <p>Endereço: Rua Exemplo, nº 123</p>
+        </address>
+    </section>
 
-                Botões com a utilização da tag: <strong>button</strong>
-                <ul>
-                    <li><button>Botão</button></li>
-                </ul>
-            </li>
-        </ul>
-    </div>
-
-    <br><!-- Estudos do dia 20 de janeiro de 2024 -->
-    <div id="day6">
-
-
-    </div>
-        
+    <hr>
+    <footer>
+        <p><strong><em>Documentação dos estudos - Lucas - 2024</em></strong></p>
+    </footer>
+    </main>  
 </body>
 </html>
