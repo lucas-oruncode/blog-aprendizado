@@ -1,11 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: #101010;
-    color: rgb(218, 217, 217);
+    color: #dad9d9;
+}
+
+h1 {
+    margin: 10px 0px 0px 15px;
+}
+
+header > p {
+    padding: 0px 0px 10px 15px;
 }
 
 nav {
-    background-image: linear-gradient(to right, #161616, #191919);
+    padding: 15px;
+}
+
+#htmlBtn {
+    border: 2px solid #f09f08;
+    border-radius: 5px;
     padding: 10px;
+    margin: 5px;
+}
+
+#htmlBtn:hover {
+    background-color: #f09f08;
+    color: #020202;
+    transition: 0.8s;
+}
+
+#cssBtn {
+    border: 2px solid #086cf0;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+
+#cssBtn:hover {
+    background-color: #086cf0;
+    color: #020202;
+    transition: 0.8s;
+}
+
+nav > h4 > strong {
+    display: inline;
+    padding: 5px;
+    margin-right: 5px;
+    border: 1px solid #dad9d9;
+    border-radius: 5px;
+}
+nav > h4 >strong :hover {
+    color: #4fb4b4;
+    transition: 0.8s;
 }
 
 article {
@@ -16,9 +66,18 @@ article {
     margin: 20px 20%;
     padding: 10px 20px;
 }
+article > ul {
+    padding: 10px;
+}
+
+li {
+    padding: 10px;
+}
+
+
 
 hr {
-    border-bottom: #020202;
+    border-bottom: 1px #020202;
 }
 
 h5 {
@@ -28,16 +87,25 @@ h5 {
     font-style: italic;
 }
 
+h3 {
+    padding: 20px;
+}
+
 a {
     text-decoration: none;
     color: #dddddd;
 }
 
 address {
-    padding: 0px 30px;
+    padding: 20px;
 }
 
 footer {
+    margin: 5px;
     padding-left: 40%;
-    color: #474747;
+    color: #4fb4b4;
+}
+
+li > strong {
+    color: #38cece
 }
