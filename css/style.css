@@ -43,6 +43,19 @@ nav {
     transition: 0.8s;
 }
 
+#jsBtn {
+    border: 2px solid #f1f500;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+
+#jsBtn:hover {
+    background-color: #f1f500;
+    color: #020202;
+    transition: 0.8s;
+}
+
 nav > h4 > strong {
     display: inline;
     padding: 5px;
@@ -112,9 +125,10 @@ h5 {
 }
 
 .textExamples {
-    margin-left: 25px;
-    font-size: 18px;
+    margin: 1rem 0 1rem 1rem;
+     font-size: 18px;
     font-style: italic;
+    font-weight: 700;
 }
 
 a {
